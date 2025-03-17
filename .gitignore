@@ -1,0 +1,89 @@
+# =============== #
+# Unity Specific  #
+# =============== #
+
+# Ignore the main Library folder (Unity's cache)
+[Ll]ibrary/
+
+# Ignore temporary files and build folders
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+
+# Ignore auto-generated Visual Studio/JetBrains Rider files
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.ide
+
+# Ignore logs and crash reports
+Logs/
+MemoryCaptures/
+
+# Ignore Unity's package cache
+Packages/com.unity.package-manager/
+# But keep manifest files
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# Ignore PlayMode and EditMode test results
+Assets/**/*.asmdef
+Assets/**/*.asmref
+Assets/**/*.dll
+
+# Ignore Unity-generated folders and settings
+UserSettings/
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.asset
+*.DS_Store
+*.apk
+*.aab
+*.unitypackage
+
+# Ignore JetBrains Rider workspace
+.idea/
+
+# Ignore Generated Localization
+Assets/AddressableAssetsData/AddressablesContentState.bin
+
+# =============== #
+# OS Specific     #
+# =============== #
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*.swp
+*~
+.nfs*
+
+# =============== #
+# Other           #
+# =============== #
+
+# Ignore any custom builds, but allow the Builds folder itself
+Builds/**/*
+!Builds/.keep
