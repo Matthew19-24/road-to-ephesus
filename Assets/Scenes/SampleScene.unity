@@ -341,7 +341,7 @@ MonoBehaviour:
   - {fileID: 1253086438718484, guid: 971c5d43846e5244f8c75cdaee9e9087, type: 3}
   - {fileID: 1520068213326888, guid: d8deb0d5cca03814e8f5cd71fb9e7a1e, type: 3}
   - {fileID: 1928123463396898, guid: 71be69e7a312bc844ad384574d3624fe, type: 3}
-  hexSize: 0.59
+  hexSize: 0.585
 --- !u!4 &1495987609
 Transform:
   m_ObjectHideFlags: 0
