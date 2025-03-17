@@ -40,17 +40,17 @@ public class Map : MonoBehaviour
     // Convert axial coordinates to world position (in Unity space)
     private Vector3 AxialToWorld(int q, int r)
     {
-        // Assuming a flat-top hex grid and a unit hex size, this calculation is based on axial to world conversion
-        float x = hexSize * 3f / 2f * q;
-        float z = hexSize * Mathf.Sqrt(3) * (r + q / 2f);
+        float x = hexSize * Mathf.Sqrt(3) * (q + r / 2f);
+        float z = hexSize * 3f / 2f * r;
         return new Vector3(x, 0f, z);  // We ignore the y-axis for 2D
     }
+
 
 
 }
 
 public static class MapSettings {
-    public static int mapRadius { get; set;} = 5;
+    public static int mapRadius { get; set;} = 20;
     public static List<HexTile> hexTiles = new List<HexTile>();
 }
 
