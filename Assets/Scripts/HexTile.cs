@@ -29,8 +29,6 @@ public class HexTile : MonoBehaviour
         }
 
         UID = Guid.NewGuid().ToString();
-
-        MapSettings.hexTiles.Add(this);
     }
 
     void Update()
