@@ -151,7 +151,7 @@ public class Map : MonoBehaviour
 
 public static class MapSettings
 {
-    public static int mapRadius { get; set; } = 50;
+    public static int mapRadius { get; set; } = 30;
 }
 
 enum TileType
